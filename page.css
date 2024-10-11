@@ -1,0 +1,110 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+header{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+#Home{
+  align-items: center;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  border-bottom: 7px solid;
+  border-color: blue;
+}
+.Home-web a{
+  text-decoration: none;
+  padding: 5px;
+  align-items: center;
+
+}
+.navbar ul{
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+      
+}
+.navbar ul li{
+  list-style: none;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  
+}
+.intro{
+  text-align: center;
+  margin-top: 5px;
+  /* background-color: gainsboro; */
+  
+}
+img{
+  height:220px;
+  width: 250px;
+}
+#Features{
+  padding: 50px;
+  
+   
+}
+#Features h1{
+  color: red;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#feature-1{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+
+}
+#Testimonials{
+  padding: 50px;
+  margin-top: 0 10px;
+  background-color: cadetblue;
+}
+.testimony{
+  text-align: center;
+  
+}
+#name{
+  font-weight: light;
+  color: green;
+  opacity: 0.7;
+}
+.enrol{
+  text-align: center;
+  align-items: center;
+}
+.enrol p{
+  margin-top: 5px;
+  
+}
+.enrol button{
+  margin-top: 10px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+
+}
+#Contact{
+  margin-top: 10px;
+  background-color: blanchedalmond;
+}
+#Contact p{
+  text-align: center;
+  margin-bottom: 5px;
+}
